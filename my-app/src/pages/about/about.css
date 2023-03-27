@@ -1,0 +1,69 @@
+.about {
+    min-height: 100vh;
+}
+.video-bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about .content h2 {
+    font-size: 6rem;
+    color: rgb(243, 241, 241);
+    position: absolute;
+    top: 120px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.about .content p {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.9;
+    padding: 1rem 0;
+    color: burlywood;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    animation-duration: 10s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.section2 {
+    height: 300px;
+    width: 250px;
+    background-color: burlywood;
+    float: left;
+    margin-left: 25px;
+}

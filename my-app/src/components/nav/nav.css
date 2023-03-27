@@ -1,0 +1,87 @@
+.nav-main {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100px;
+}
+
+.nav-secondary {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.nav-login-signup {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.nav-home:hover,
+.nav-about:hover,
+.nav-categories:hover,
+.nav-login:hover,
+.nav-register:hover,
+.nav-products:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+}
+
+.nav-home,
+.nav-about,
+.nav-categories,
+.nav-products,
+.nav-login,
+.nav-register {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+        display: inline-block;
+        cursor: pointer;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .nav-bar1,
+    .nav-bar2,
+    .nav-bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: var(--main-color);
+        margin: 6px 0;
+        transition: 0.3s;
+    }
+
+    .nav-change .nav-bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    .nav-change .nav-bar2 {
+        opacity: 0;
+    }
+
+    .nav-change .nav-bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    .nav-secondary {
+        display: none;
+    }
+
+    .nav-login-signup {
+        display: none;
+    }
+}

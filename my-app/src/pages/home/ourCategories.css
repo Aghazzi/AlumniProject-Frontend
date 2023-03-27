@@ -1,0 +1,170 @@
+.categories {
+    background-color: var(--bg);
+}
+
+.categories .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 1.5rem;
+}
+
+.categories .box-container .box {
+    text-align: center;
+    border: var(--border);
+    border-radius: 2rem;
+    padding: 4rem;
+}
+
+.categories .box-container .box .icons a {
+    color: #fff;
+}
+
+.categories .box-container .box .icons a:hover {
+    transform: scale(1.2);
+}
+
+.categories .box-container .box .image {
+    padding: 2.5rem 0;
+}
+
+.categories .box-container .box .image img {
+    height: 25rem;
+}
+
+.categories .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.categories .box-container .box .content .stars {
+    padding: 1.5rem;
+}
+
+.categories .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+
+.categories .box-container .box .content .price {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.categories .box-container .box .content .price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.btn-fixer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.btn-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    position: relative;
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 40%;
+    overflow-y: auto;
+}
+
+.form-controls input {
+    border: 2px solid #f0f0f0;
+    border-radius: 2rem;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 75%;
+}
+
+.form-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.form-model {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.model-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.model-img img {
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.close-model {
+    right: 20px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.close-model:hover {
+    color: var(--main-color);
+}
+
+.modal-content h1 {
+    color: white;
+    font-size: 20px;
+}
+.btn-add {
+    position: relative;
+    top: -8px;
+    right: -10px;
+}
+
+.btn-upload {
+    width: 75%;
+    font-size: 1.5rem;
+}

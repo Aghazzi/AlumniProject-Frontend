@@ -1,0 +1,40 @@
+.homee {
+    background: url(../../images/product-desc-img-coffee01.jpg) no-repeat;
+    background-size: cover;
+}
+
+.homee .content h3 {
+    text-transform: uppercase;
+}
+
+.homee .content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.price {
+    color: #fff;
+    font-size: 2.5rem;
+}
+h3 {
+    color: var(--main-color);
+    font-size: 2.5rem;
+}
+.price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.btn-move {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,31 @@
+.footer {
+    background: var(--bg);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 7%;
+    padding-left: 7%;
+    margin-top: 30px;
+    border-top: var(--border);
+}
+
+.footer .share a {
+    line-height: 5rem;
+    font-size: 3rem;
+    color: #fff;
+    margin: 0.5rem;
+}
+
+.footer .share a:hover {
+    color: var(--main-color);
+}
+
+.contact h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.contact span {
+    color: var(--main-color);
+}
